@@ -1,10 +1,9 @@
 import { ThemeProvider } from 'styled-components';
-import  Profile  from './pages/Profile/index'
-import theme from './theme'
+import theme from './assets/themes/default'
 function App() {
   return (
     <ThemeProvider theme={theme}>
-        <Profile />
+      Refactoring
     </ThemeProvider>
   );
 }
